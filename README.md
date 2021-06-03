@@ -1,4 +1,4 @@
-# projeto_site_responsivo 	:technologist:
+# site_responsivo 	:technologist:
 
 <h2>Site Responsivo de uma universidade.</h2>
   
