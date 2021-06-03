@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade Canes</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../assets/logo.png"></a>
+            <div class="div nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">SOBRE NÓS</a></li>
+                <li><a href="course.html">CURSO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTATO</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Nosso certificado e programas online para 2021</h1>
+    </section>
+    <!--BLOG PAGE CONTENT-->
+    <section class="blog-content">
+        <div class="row">
+            
+            <div class="blog-left">
+                <img src="../assets/certificate.jpg" alt="">
+                <h2>Nosso certificado e programas online para 2021</h2>
+                <p>Comprometido em proporcionar a melhor experiência aos alunos, o Senac vai além 
+                    das características comuns do setor, oferecendo o melhor ensino a distância do país. 
+                    Entre seus diferenciais, está a ampla oferta em diversos níveis de ensino e áreas de 
+                    conhecimento. São mais de 200 opções em cursos livres, técnicos, graduações, 
+                    pós-graduações e extensões universitárias, fazendo com que o aluno possa construir uma 
+                    trajetória de formação dentro do próprio Senac.</p>
+                    <br>
+                        <div class="comment-box">
+                            <h3>Deixe um comentário</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Insira seu nome: ">
+                                <input type="text" placeholder="Insira seu e-mail: ">
+                                <textarea rows="5" placeholder="Seu comentário: "></textarea>
+                                <button type="submit" class="hero-btn red-btn">PÓS-COMENTÁRIO</button>
+                            </form>
+                        </div>
+             </div>
+             <div class="blog-right">
+                <h3>Categorias de postagem</h3>
+                <div>
+                    <span>Análise e Desenvolvimento de Sistemas</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span> Ciência da Computação</span>
+                    <span>14</span>
+                </div>
+                <div>
+                    <span>Segurança da Informação</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Medicina</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>Jornalismo</span>
+                    <span>25</span>
+                </div>
+                <div>
+                    <span>Comércio</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <section class="footer">
+        <h4>Sobre nós</h4>
+        <p>Comprometido em proporcionar a melhor experiência aos alunos, o Canes vai além das características 
+            comuns do setor, oferecendo o melhor ensino a distância do país. Entre seus diferenciais, está a ampla 
+            oferta em diversos níveis de ensino e áreas de conhecimento. São mais de 200 opções em cursos livres, 
+            técnicos, graduações, pós-graduações e extensões
+             universitárias, fazendo com que o aluno possa construir uma trajetória de formação dentro do 
+             próprio Canes. </p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+     </section>
+   <!--JAVASCRIPT MENU-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+  
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

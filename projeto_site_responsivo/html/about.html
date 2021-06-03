@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade Canes</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../assets/logo.png"></a>
+            <div class="div nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">SOBRE NÓS</a></li>
+                <li><a href="course.html">CURSO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTATO</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Sobre nós</h1>
+    </section>
+
+    <!--CONTEUDO SOBRE NOS-->
+    <section class="about-us">
+        
+        <div class="row">
+            <div class="about-col">
+                <h1>Nós somos a maior universidade do mundo</h1>
+                <p>Conheça os diferenciais do Canes na oferta de cursos EAD
+
+                    Entre os atrativos, está a oferta de mais de 300 polos para atividades presenciais 
+                    obrigatórias em todo o país<br><br>
+                    
+                    Flexibilidade de tempo, espaço e dinheiro tornou a educação a distância uma opção viável 
+                    e eficiente para quem pensa em investir no aprimoramento acadêmico e profissional. O uso 
+                    de ferramentas e metodologias mais dinâmicas também são atrativos do EAD, que contava com
+                     5 milhões de matriculados em 2015, segundo o último censo divulgado pela Associação 
+                     Brasileira de Educação a Distância (Abed).<br><br>
+                    
+                    Instrutores com experiência de mercado também garantem referências atualizadas e
+                     atividades práticas, deixando o estudante preparado para enfrentar os desafios em sua
+                      área de atuação. Tudo isso aliado ao reconhecimento e credibilidade do Canes, que já na
+                       década de 1940 promovia o ensino a distância por meio de seus cursos na Universidade do
+                        Ar, uma ação pioneira que na época levou conhecimento profissional a locais distantes
+                         por meio de programas de rádio.<br></p>
+                <a href="" class="hero-btn red-btn">EXPLORE AGORA</a>
+            </div>
+            <div class="about-col">
+                <img src="../assets/about.jpg">
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <section class="footer">
+        <h4>Sobre nós</h4>
+        <p>Comprometido em proporcionar a melhor experiência aos alunos, o Canes vai além das características 
+            comuns do setor, oferecendo o melhor ensino a distância do país. Entre seus diferenciais, está a ampla 
+            oferta em diversos níveis de ensino e áreas de conhecimento. São mais de 200 opções em cursos livres, 
+            técnicos, graduações, pós-graduações e extensões
+             universitárias, fazendo com que o aluno possa construir uma trajetória de formação dentro do 
+             próprio Canes. </p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+     </section>
+ <!--JAVASCRIPT MENU-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+  
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
