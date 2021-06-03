@@ -5,7 +5,7 @@
  <h2>Linguagem:
   JavaScript
   
-  <h2> Marcação de texto utilizada:
+  <h2> Marcação de texto utilizada:</h2>
   HTML e CSS
       
   <h2> Framework:
