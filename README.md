@@ -1,6 +1,4 @@
-# site_responsivo 	:technologist:
-
-<h2>Site Responsivo de uma universidade.</h2>
+# Site responsivo de uma Universidade. 	:technologist:
   
  <h2>Linguagem:</h2>
   JavaScript
