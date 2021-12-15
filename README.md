@@ -1,10 +1,12 @@
-# Site responsivo de uma Universidade. 	:technologist:
+# Site Responsivo   :technologist:
   
- <h2>Linguagem:</h2>
-  JavaScript
+ <h2>Objetivo:</h2>
+ Realizar um site responsivo de uma Universidade
+ 
+ <h2>Front-End:</h2>
+  JavaScript<br>
+  HTML<br>
+  CSS
   
-  <h2> Marcação de texto utilizada:</h2>
-  HTML e CSS
-      
   <h2> Framework:</h2>
  BootStrap e JQuery
